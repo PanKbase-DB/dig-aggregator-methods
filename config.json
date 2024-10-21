@@ -2,19 +2,18 @@
     "aws": {
         "project": "portal",
         "input": {
-            "bucket": "dig-analysis-data"
+            "bucket": "dig-analysis-data-pankbase"
         },
         "output": {
-            "bucket": "dig-analysis-data"
+            "bucket": "dig-analysis-data-pankbase"
         },
         "bioindex": {
-            "bucket": "dig-bio-index"
+            "bucket": "dig-bio-index-pankbase"
         },
         "emr": {
             "subnetIds": [
-                "subnet-ab89bbf3",
-                "subnet-798ebc21",
-                "subnet-dc89bb84"
+                "subnet-01ce7cecd10647b31",
+                "subnet-0d3468a96f74f1572"
             ],
             "sshKeyName": "GenomeStore REST",
             "jobFlowRoleId": "dig-aggregator-role",
